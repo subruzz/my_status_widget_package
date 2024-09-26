@@ -1,39 +1,18 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Status Dotted Borders Widget
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Flutter package that provides a customizable dotted borders widget for displaying user statuses, similar to the status feature in social media apps.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- **Customizable Dotted Borders:** Easily create dotted borders to indicate user statuses.
+- **Visual Feedback:** The widget provides visual cues for the user's own statuses versus those of others.
+- **Performance Optimized:** Lightweight implementation to ensure smooth rendering.
 
-## Getting started
+## Getting Started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use the `status_dotted_borders_widget`, make sure you have Flutter installed on your machine. You can add the package to your project by including it in your `pubspec.yaml` file.
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  my_status_widget:
+    path: ../  # Adjust the path as necessary
